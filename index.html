@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./assets/img/logo burgers.png">
+    <title>Chris Burgers - Home</title>
+</head>
+<body>
+    
+    <!--header-->
+<header>
+    <nav class="container-fluid navbar bg-secondary bg-gradient">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./assets/img/logo burgers.png" alt="Logo" width="40" height="30" class="d-inline-block align-text-top">
+            Chris <span class="text-warning">Burger</span> 
+          </a>
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="./pages/menu.html">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-warning" href="./pages/ubicaciones.html">Ubicaciones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-warning" href="./pages/catering.html">Catering</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-warning" href="./pages/postulate.html">Postulate</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+</header>
+
+<!--seccion/carrusel-->
+<main>
+    <section class="conteiner-fluid">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./assets/img/burger 1280x720.jpg" class="d-block w-100" alt="Hamburguesa">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/burgers 2 1280x720.jpg" class="d-block w-100" alt="Hamburguesa">
+              </div>
+              <div class="carousel-item">
+                <img src="./assets/img/1280x720.jpg" class="d-block w-100" alt="Hamburguesa">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+      </section>
+
+        <!--seccion informacion-->
+        <section>
+          <div class="row justify-content-around text-center text-md-start bg-secondary bg-gradient text-warning">
+          <div class="row w-75 mx-auto"> 
+              <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                  <img src="./assets/img/menu.png" alt="menu"   width="180" height="160">
+                  <div>
+                    <a href="./pages/menu.html" class="text-decoration-none link-warning">
+                      <h1 class="fs-5 mt-4 px-4 pb-1">Menu</h3>
+                      </a>
+                      <p class="px-4 text-light">Mira y pide una hambuguesa muy rica, saludable y lo mejor a buen precio! </p>
+                  </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+                  <img src="./assets/img/negro.png" alt="Ubicaciones" width="180" height="160">
+                  <div>
+                    <a href="./pages/ubicaciones.html" class="text-decoration-none link-warning">
+                      <h1 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Ubicaciones</h1>
+                      </a>
+                      <p class="px-4 text-light">Aqui puedes encontrar tu restaurante mas cercano!</p>
+                    </div>
+              </div>   
+          </div>
+          <div class="row w-75 mx-auto mb-5">       
+              <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+                  <img src="./assets/img/catering png.png" alt="Catering" width="180" height="160">
+                  <div>
+                    <a href="./pages/catering.html" class="text-decoration-none link-warning">
+                      <h1 class="fs-5 mt-4 px-4 pb-1">Catering</h1>
+                    </a>
+                      <p class="px-4 text-light">Eventos de todo tipo para cualquier lugar, dia, horario etc...</p>
+                  </div>
+              </div>
+              <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                  <img src="./assets/img/cv.png" alt="postulate" width="180" height="160" >
+                  <div>
+                    <a href="./pages/postulate.html" class="text-decoration-none link-warning">
+                      <h1 class="fs-5 mt-4 px-4 pb-1">Postulate</h1>
+                    </a>
+                      <p class="px-4 text-light">Ten la oportunidad de pasar tu CV para nuestro restaurarnte.</p>
+                  </div>
+              </div>   
+          </div>
+      </section>
+    </div>
+</main>
+
+<!--Footer-->
+<footer>
+  <div class="container-fluid bg-secondary bg-gradient">
+        <div class="row justify-content-around text-center text-md-start">
+          <div class="col-md-2 text-center">
+                <h1 class="text-warning mt-3">Chris Burgers</h1>
+            </div>
+            <div class="col-md-2">
+                <ul class="list-unstyled">
+                    <li class="text-warning my-2">Accesos</li>
+                    <li> <a href="./index.html" class="text-decoration-none text-white">Home</a> </li>
+                    <li> <a href="./pages/menu.html" class="text-decoration-none text-white">Menu</a> </li>
+                    <li> <a href="./pages/ubicaciones.html" class="text-decoration-none text-white">Ubicaciones</a></li>
+                    <li> <a href="./pages/catering.html" class="text-decoration-none text-white">Catering</a> </li>
+                    <li> <a href="./pages/postulate.html" class="text-decoration-none text-white">Postulaciones</a> </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <ul class="list-unstyled">
+                    <li class="text-warning my-2">Soporte</li>
+                    <li> <a href="#" class="text-decoration-none text-white">Contactanos</a> </li>
+                    <li> <a href="#" class="text-decoration-none text-white">Soporte</a> </li>
+                </ul>
+            </div>
+            <div class="col-md-2">
+                <li class="text-warning my-2 list-unstyled">Redes Sociales</li>
+                <ul class="list-unstyled d-flex justify-content-center justify-content-md-start">
+                    <li><a href="#" class="text-white"><i class="fa-brands fa-facebook me-2 fa-1x"></i></a></li>
+                    <li><a href="#" class="text-white"><i class="fa-brands fa-whatsapp mx-2 fa-1x"></i></a></li>
+                    <li><a href="#" class="text-white"><i class="fa-brands fa-youtube mx-2 fa-1x"></i></a></li>
+                    <li><a href="#" class="text-white"><i class="fa-brands fa-instagram mx-2 fa-1x"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-md-12 text-center pt-2">
+                <p class="text-light">&copy; 2022 Copyright <a href="#" class="text-warning">Chris Burger</a></p>
+            </div>
+        </div>
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+</body>
+</html>
